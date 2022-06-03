@@ -1,6 +1,6 @@
 {
-  "name": "bfilter",
-  "version": "2.3.0",
+  "name": "@ironfish/bfilter",
+  "version": "0.0.0",
   "description": "Bloom filters for javascript",
   "keywords": [
     "bloom",
@@ -8,19 +8,18 @@
     "murmur3"
   ],
   "license": "MIT",
-  "repository": "git://github.com/bcoin-org/bfilter.git",
-  "homepage": "https://github.com/bcoin-org/bfilter",
+  "repository": "git://github.com/iron-fish/bfilter.git",
+  "homepage": "https://github.com/iron-fish/bfilter",
   "bugs": {
-    "url": "https://github.com/bcoin-org/bfilter/issues"
+    "url": "https://github.com/iron-fish/bfilter/issues"
   },
-  "author": "Christopher Jeffrey <chjjeffrey@gmail.com>",
+  "author": "Iron Fish <engineering@ironfish.network>",
   "main": "./lib/bfilter.js",
   "scripts": {
     "lint": "eslint lib/ test/ || exit 0",
     "test": "bmocha --reporter spec test/*-test.js"
   },
   "dependencies": {
-    "bcrypto": "git+https://github.com/bcoin-org/bcrypto.git#semver:~5.5.0",
     "bsert": "git+https://github.com/chjj/bsert.git#semver:~0.0.10",
     "bufio": "git+https://github.com/bcoin-org/bufio.git#semver:~1.0.6",
     "loady": "git+https://github.com/chjj/loady.git#semver:~0.0.1"
