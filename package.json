@@ -22,6 +22,7 @@
   "dependencies": {
     "bsert": "git+https://github.com/chjj/bsert.git#semver:~0.0.10",
     "bufio": "git+https://github.com/bcoin-org/bufio.git#semver:~1.0.6",
+    "imurmurhash": "0.1.4",
     "loady": "git+https://github.com/chjj/loady.git#semver:~0.0.1"
   },
   "devDependencies": {
